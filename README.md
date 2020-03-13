@@ -8,7 +8,7 @@ A PyTorch implementation of Conv-TasNet described in ["TasNet: Surpassing Ideal 
 | Mapping |     ReLU   |  gLN  |   No   |     20     |  4 Tesla V100  |   **16.1**  | **16.3**|
 | Mapping+OSNR | ReLU  |  gLN  |   No   |     20     |  4 Tesla V100  |   **16.3**  | **16.6**|
 
- `SI-SDR` and `SI-SNR` are the same thing (different name) in different papers.
+ `Mapping` and `OSNR` code are the comming soon.
 
 ## Install
 - PyTorch 0.4.1+
