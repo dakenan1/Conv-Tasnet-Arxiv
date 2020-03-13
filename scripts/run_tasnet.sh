@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Copyright  2018  Northwestern Polytechnical University (author: Ke Wang)
+# Last revised 2020 Tsinghua University (author: Xuechao Wu)
 
 set -euo pipefail
 
@@ -21,7 +22,7 @@ CUDA_VISIBLE_DEVICES='2,3,4,5,6,7' python -u steps/run_tasnet.py \
     --batch-size=${batch_size} \
     --learning-rate=${lr} \
     --weight-decay=1e-5 \
-    --epochs=100 \
+    --epochs=50 \
     --data-dir=${data_dir} \
     --modelDir="exp/${save_name}" \
     --use-cuda="true" \
